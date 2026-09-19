@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Leitura {
+
+    public static void main(String[] args) {
+        Scanner leitura = new Scanner(System.in);
+
+        System.out.println("Digite seu filme favorito:");
+        String filme = leitura.nextLine();
+        System.out.println("Informe o ano do filme:");
+        int anoFilme = leitura.nextInt();
+
+        System.out.println("Filme informado: " + filme + ". Lançado em: " + anoFilme);
+    }
+}
